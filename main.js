@@ -21,7 +21,7 @@ let temperatura = Number(prompt(`Inserisci la temperatura attuale:`));
 // }
 
 // Inserimento di switch
-switch(temperatura){
+switch(true){
     case temperatura < -10:
         console.log(`copriti…ancora ti raffreddi`);
     break;
